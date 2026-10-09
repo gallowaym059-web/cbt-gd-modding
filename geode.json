@@ -1,0 +1,34 @@
+{
+  "geode": "1.0.0",
+  "version": "1.0.0",
+  "gd": "2.206",
+  "metadata": {
+    "name": "Click Before Tick",
+    "developer": "gallowaym059-web",
+    "description": "A Geode mod implementing click-before-tick with TPS bypass and safe mode for Geometry Dash",
+    "details": "Features a mature TPS bypass with a safe mode toggle to prevent competitive cheating.",
+    "repository": "https://github.com/gallowaym059-web/cbt-gd-modding"
+  },
+  "settings": {
+    "cbt-enabled": {
+      "name": "Click Before Tick Enabled",
+      "description": "Enable/disable click-before-tick functionality",
+      "type": "bool",
+      "default": true
+    },
+    "safe-mode": {
+      "name": "Safe Mode",
+      "description": "Disable mod features in online/competitive modes",
+      "type": "bool",
+      "default": true
+    },
+    "tps-multiplier": {
+      "name": "TPS Multiplier",
+      "description": "Game speed multiplier (1.0 = normal, 2.0 = 2x speed)",
+      "type": "float",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 4.0
+    }
+  }
+}
