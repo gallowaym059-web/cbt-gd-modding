@@ -1,0 +1,37 @@
+{
+  "geode": "4.0.0",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074",
+    "mac": "2.2074"
+  },
+  "id": "gallowaym059-web.click-before-tick",
+  "name": "Click Before Tick",
+  "version": "v1.0.0",
+  "developer": "gallowaym059-web",
+  "description": "Click-before-tick input handling with a game speed (TPS) multiplier and a safe mode.",
+  "repository": "https://github.com/gallowaym059-web/cbt-gd-modding",
+  "tags": ["gameplay", "utility"],
+  "settings": {
+    "cbt-enabled": {
+      "name": "Click Before Tick Enabled",
+      "description": "Enable/disable click-before-tick functionality.",
+      "type": "bool",
+      "default": true
+    },
+    "safe-mode": {
+      "name": "Safe Mode",
+      "description": "Only allow mod features in the editor, practice mode and test mode, so nothing affects online progress.",
+      "type": "bool",
+      "default": true
+    },
+    "tps-multiplier": {
+      "name": "TPS Multiplier",
+      "description": "Game speed multiplier (1.0 = normal, 2.0 = 2x speed).",
+      "type": "float",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 4.0
+    }
+  }
+}
